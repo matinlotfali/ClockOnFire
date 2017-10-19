@@ -15,10 +15,7 @@ class Clock
    Clock(int centerX, int centerY, int size)
    {
      clockCircle = new ClockCircle( centerX, centerY*3/4, size/4);
-      pendulum = new Pendulum(size/4, size/2,40,10,#ffffff);
-
-      sdjakjfkdjgkgd
-
+      pendulum = new Pendulum(size/4, size/2,40,10,#ffffff);      
    }
 
    void Draw()
